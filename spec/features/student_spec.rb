@@ -23,8 +23,6 @@ describe 'form page' do
     expect(page).to have_content("Student Form")
   end
 
-
-
 describe 'Show page' do
   before do
     @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
